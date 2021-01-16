@@ -24,9 +24,9 @@
 
 6. Download code commit code to EC2 instance: https://ap-south-1.console.aws.amazon.com/ec2/v2/home?region=ap-south-1#Instances:instanceState=running
 
-  a. create ec2 micro instance with 20GB, generate pem key and download
-  b. go to local machine -> open terminal -> ssh -i generated_key.pem ubuntu@public_ip
-  c. after successfull login -> create workspace, mkdir workspace, cd workspace -> install git, sudo apt install git
+  a. create ec2 micro instance with 20GB, generate pem key and download \
+  b. go to local machine -> open terminal -> ssh -i generated_key.pem ubuntu@public_ip \
+  c. after successfull login -> create workspace, mkdir workspace, cd workspace -> install git, sudo apt install git \
   d. git clone clone_repo_url
     1. iam_username:
     2. iam_password:
